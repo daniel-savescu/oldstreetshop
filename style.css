@@ -19,6 +19,10 @@ span.border-rounder {
   border-radius: 5px;
 }
 
+.line_spaceing {
+  line-height: 30px;
+}
+
 footer {
   position: sticky;
   left: 0;
