@@ -15,6 +15,10 @@ h2.subtitle {
   font-family: 'Parisienne';
 }
 
+span.border-rounder {
+  border-radius: 5px;
+}
+
 footer {
   position: sticky;
   left: 0;
