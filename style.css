@@ -12,7 +12,7 @@ h1.title {
 
 h2.subtitle {
   font-size: 3rem;
-  font-family: 'Parisienne';
+  font-family: 'Parisienne', sans-serif;
 }
 
 span.border-rounder {
