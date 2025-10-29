@@ -19,10 +19,6 @@ span.border-rounder {
   border-radius: 5px;
 }
 
-.line_spaceing {
-  line-height: 30px;
-}
-
 footer {
   position: sticky;
   left: 0;
@@ -35,4 +31,30 @@ footer {
   box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
   margin-top: auto;
   border-top: 1px solid black;
+}
+
+address.contact {
+  /* 1. Setează o lățime (de exemplu, 50% sau maxim 400px) */
+  width: 100%;
+  max-width: 600px;
+
+  /* 2. Centrează blocul pe orizontală */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Păstrează centrarea textului din interior, cum ai deja */
+  text-align: center;
+}
+
+.contact-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.contact-item ion-icon {
+  flex-shrink: 0;
+  font-size: 2rem; /* Ajustează dimensiunea iconiței dacă este necesar */
 }
