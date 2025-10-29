@@ -34,27 +34,20 @@ footer {
 }
 
 address.contact {
-  /* 1. Setează o lățime (de exemplu, 50% sau maxim 400px) */
   width: 100%;
   max-width: 600px;
-
-  /* 2. Centrează blocul pe orizontală */
   margin-left: auto;
   margin-right: auto;
-
-  /* Păstrează centrarea textului din interior, cum ai deja */
   text-align: center;
 }
 
 .contact-item {
   display: flex;
-
   align-items: center;
-
   gap: 8px;
 }
 
 .contact-item ion-icon {
   flex-shrink: 0;
-  font-size: 2rem; /* Ajustează dimensiunea iconiței dacă este necesar */
+  font-size: 2rem;
 }
